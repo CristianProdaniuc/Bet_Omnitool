@@ -25,9 +25,23 @@
     </property>
     <layout class="QVBoxLayout" name="verticalLayoutMenu">
      <item>
+      <widget class="QPushButton" name="buttonLoginTest">
+       <property name="text">
+        <string>openSSL login test </string>
+       </property>
+      </widget>
+     </item>
+     <item>
       <widget class="QPushButton" name="buttonAPItest">
        <property name="text">
         <string>API test</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="buttonDisplayResults">
+       <property name="text">
+        <string>Display API test results</string>
        </property>
       </widget>
      </item>
@@ -39,6 +53,16 @@
       </widget>
      </item>
     </layout>
+   </widget>
+   <widget class="QListView" name="APItestListView">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>10</y>
+      <width>271</width>
+      <height>531</height>
+     </rect>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
