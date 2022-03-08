@@ -32,9 +32,9 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="buttonAPItest">
+      <widget class="QPushButton" name="buttonListEventTypes">
        <property name="text">
-        <string>API test</string>
+        <string>listEventTypes test</string>
        </property>
       </widget>
      </item>
@@ -42,6 +42,13 @@
       <widget class="QPushButton" name="buttonListEvents">
        <property name="text">
         <string>listEvents test</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="buttonListMarketTypes">
+       <property name="text">
+        <string>listMarketTypes test</string>
        </property>
       </widget>
      </item>
@@ -56,6 +63,13 @@
       <widget class="QPushButton" name="buttonAdjustBookmakerOdds">
        <property name="text">
         <string>Adjust Bookmaker Odds</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="buttonStreamAPI">
+       <property name="text">
+        <string>StreamAPI test</string>
        </property>
       </widget>
      </item>
